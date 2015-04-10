@@ -14,7 +14,7 @@ Candidate D: 56/67
 Features
 --------
 
-* Extensive algorithm base from [python-vote-core](https://github.com/bradbeattie/python-vote-core))
+* Extensive algorithm base from [python-vote-core](https://github.com/bradbeattie/python-vote-core)
 * Immediate results with brilliantly fast [SurveyMonkey API](https://developer.surveymonkey.com/)
 * Growing range of useful analytics, such as voter's second preferences
 * Clean, easy-to-understand (and modify) code base
