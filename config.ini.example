@@ -1,0 +1,18 @@
+# access_token:                         the access token for the SurveyMonkey API                    
+#                                           (line breaks entered will be ignored)
+# api_key:                                   the API key for the SurveyMonkey API
+# hostname:                                 the hostname for the SurveyMonkey API
+# survey_id:                                 the id of the survey used for voting
+# respondents_per_request:           number of ballots requested per JSON request
+#                                                                (maximum is 100)
+# algorithm:                                the algorithm used to select a winner 
+
+[SurveyMonkey API]
+access_token:
+api_key:
+hostname: https://api.surveymonkey.net
+survey_id:
+respondents_per_request: 100
+
+[Voting System]
+algorithm: IRV 
