@@ -28,7 +28,7 @@ First, obtain a SurveyMonkey API key and access token. Then:
 git clone https://github.com/useanalias/vote
 cd vote
 mv config.ini.example config.ini
-*editor* config.ini   # enter API key and access token
+vim config.ini   # enter API key and access token
 ```
   
 Usage
