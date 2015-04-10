@@ -1,6 +1,6 @@
 Vote
 ====
-Vote is a voting system that relies on the versatility and speed of SurveyMonkey to get instant voting results. Combined with the vast number of algorithms contained in py-vote-core, Vote has the capability to meet all of your tallying needs - *without* long periods of manual labor.
+Vote is a voting system that relies on the versatility and speed of [SurveyMonkey](https://www.surveymonkey.com) to get instant voting results. Combined with the vast number of algorithms contained in [python-vote-core](https://github.com/bradbeattie/python-vote-core), Vote has the capability to meet all of your tallying needs - *without* long periods of manual labor.
 
 ```sh
 $ vote.py -v
@@ -14,15 +14,15 @@ Candidate D: 56/67
 Features
 --------
 
-* Wide algorithm base (relies on py-vote-core)
-* Immediate results (brilliantly fast SurveyMonkey API)
-* Growing range of useful analytics, such as second preferences
+* Extensive algorithm base from [python-vote-core](https://github.com/bradbeattie/python-vote-core))
+* Immediate results with brilliantly fast [SurveyMonkey API](https://developer.surveymonkey.com/)
+* Growing range of useful analytics, such as voter's second preferences
 * Clean, easy-to-understand (and modify) code base
 
 Installation
 ------------
   
-First, obtain a SurveyMonkey API key and access token. Then:
+First, [obtain a SurveyMonkey API key and access token](https://developer.surveymonkey.com/mashery/guide_oauth). Then:
 
 ```sh
 git clone https://github.com/useanalias/vote
@@ -39,4 +39,4 @@ It's as simple as it gets:
 ./vote.py (-v)
 ```
 
-Verbose mode will give you additional analytics beyond the victor.
+Verbose mode will give you additional analytics (not just the victor).
